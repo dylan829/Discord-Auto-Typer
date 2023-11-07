@@ -24,7 +24,7 @@ print("      .o.                     .    o8o                            .      
 time_now = 5
 timer = 0
 while time_now != timer:
-    time.sleep(1)
+    time.sleep(301)
     timer += 1
     if timer == time_now:
         break
@@ -61,7 +61,7 @@ def say(word):
         keyboard.press(Key.enter)
 
 
-thread1 = threading.Thread(target=say(" Rawr "))
+thread1 = threading.Thread(target=say("!work"))
 
 
 
